@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Times New Roman;
+  margin-top: 30px;
+}
+
+#title {
+  font-size: 40px;
+}
+
+#description {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+#source {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+path:hover {
+  fill: red !important;
+  stroke: yellow;
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+#tooltip {
+  position: absolute;
+  z-index: 10;
+  opacity: .9;
+  visibility: hidden;
+  background: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px 2px #404040;
+}
