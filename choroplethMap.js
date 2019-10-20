@@ -80,7 +80,7 @@ d3.json(getCountInfo, (dataset) => {
       .attr( "stroke", "#333")
       .attr( "d", geoPath )
       .attr("fill", (d) => { 
-        const = us_education_data.filter(( obj ) => obj.fips == d.id);
+        const result = us_education_data.filter(( obj ) => obj.fips == d.id);
         return result[0] ? color(result[0].bachelorsOrHigher) : color(0);
        })
     
